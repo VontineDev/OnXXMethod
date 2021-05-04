@@ -8,6 +8,7 @@ public enum fileState { SAVE, LOAD };
 public class FileManager : MonoBehaviour
 {
     #region NotUsedNow
+
     //public Button btnSaveTxt;       // btn to save txt file
     //public Button btnLoadTxt;       // btn to load txt from file
     //public Button btnSaveImg;       // btn to save img file
@@ -41,6 +42,10 @@ public class FileManager : MonoBehaviour
         imgFilePath = "/img.png";
 
         imgsize = new int[2];
+
+        DelegateSample.Instance.SaveOperate += SaveFile;
+
+
 
         btnSave.onClick.AddListener(() =>
         {
