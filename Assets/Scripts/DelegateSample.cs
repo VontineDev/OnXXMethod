@@ -3,6 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class PlayerEventArgs : EventArgs
+{
+    public PlayerInfo playerInfo;
+}
+
+
 public class DelegateSample : MonoBehaviour
 {
     #region Property
@@ -22,10 +28,20 @@ public class DelegateSample : MonoBehaviour
     public event EventHandler SaveEvent;
     public event EventHandler LoadEvent;
 
+    public event EventHandler SavePlayerEvent;
+    public event EventHandler LoadPlayerEvent;
 
     #endregion
 
     #region Methods
+    public void SavePlayerEventOperation(PlayerEventArgs playerEventArgs)
+    {
+        SavePlayerEvent?.Invoke(this, playerEventArgs);
+    }
+    public void LoadPlayerEventOperation(PlayerEventArgs playerEventArgs)
+    {
+        LoadPlayerEvent?.Invoke(this, playerEventArgs);
+    }
     public void SaveOperation()
     {
         SaveOperate?.Invoke();
