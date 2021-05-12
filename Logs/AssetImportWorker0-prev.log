@@ -15,11 +15,11 @@ C:/UnityProjects/OnXXMethod
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51265
+62051
 Successfully changed project path to: C:/UnityProjects/OnXXMethod
 C:/UnityProjects/OnXXMethod
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,483 +35,1313 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.095161 seconds.
+Registered in 0.117567 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.737 seconds
+- Completed reload, in  6.895 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.131113 seconds.
+Registered in 0.145763 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  1.454 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 1.472000 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.228400 ms  DeleteObjects: 0.067300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/SaveFilesInfo.cs
-  artifactKey: Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SaveFilesInfo.cs using Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b646cbcc14f4cad379108ac61ddbf7d7') in 0.016511 seconds
-  Import took 0.018194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.892043 seconds.
-  path: Assets/Scripts/SaveFilesInfo.cs
-  artifactKey: Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SaveFilesInfo.cs using Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453d8eed53fe8eb166923e3bd82529a4') in 0.001936 seconds
-  Import took 0.003866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.206118 seconds.
-  path: Assets/Scripts/SaveFilesInfo.cs
-  artifactKey: Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SaveFilesInfo.cs using Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5acf2b715df882a3273026f76c0aee') in 0.001788 seconds
-  Import took 0.003418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.100013 seconds.
-  path: Assets/Scripts/SaveFilesInfo.cs
-  artifactKey: Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SaveFilesInfo.cs using Guid(56ae9aa89e2286949993140f29a366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcae4ff81b305890a1ad81261e56600') in 0.001707 seconds
-  Import took 0.003332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001235 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 1.538800 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.326200 ms  DeleteObjects: 0.038400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001242 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 1.483000 ms (FindLiveObjects: 0.128600 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.283200 ms  DeleteObjects: 0.038300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.089853 seconds.
-  path: Assets/Scripts/FileManager.cs
-  artifactKey: Guid(27dbfabfe53427146a1334931b3bffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FileManager.cs using Guid(27dbfabfe53427146a1334931b3bffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1c32722ee6a6cdb0e840035142e5b') in 0.006747 seconds
-  Import took 0.008408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021912 seconds.
-  path: Assets/Scripts/FileManager.cs
-  artifactKey: Guid(27dbfabfe53427146a1334931b3bffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FileManager.cs using Guid(27dbfabfe53427146a1334931b3bffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1c32722ee6a6cdb0e840035142e5b') in 0.002024 seconds
-  Import took 0.003753 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.675 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.646800 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.055800 ms MarkObjects: 1.367700 ms  DeleteObjects: 0.041600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001292 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.4 MB.
 System memory in use after: 60.5 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1579.
-Total: 1.465100 ms (FindLiveObjects: 0.121200 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.272800 ms  DeleteObjects: 0.039900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001271 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 1.556100 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.069700 ms MarkObjects: 1.191700 ms  DeleteObjects: 0.053900 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 1.610200 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.389700 ms  DeleteObjects: 0.058900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2760.519552 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(4585a09f74c60cd43bf0d749277c75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(4585a09f74c60cd43bf0d749277c75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3020afcef1159ed40efff1ceaee67d19') in 0.007256 seconds
-  Import took 0.009187 seconds .
+  path: Assets/Scenes/0506_Challenge.unity
+  artifactKey: Guid(c5e0a7c9f2eb37140a1f76fa0a43c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/0506_Challenge.unity using Guid(c5e0a7c9f2eb37140a1f76fa0a43c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e494812a7df5acf11a535306685425') in 0.013577 seconds
+  Import took 0.016520 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.528622 seconds.
-  path: Assets/cat-baby.jpg
-  artifactKey: Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cat-baby.jpg using Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6d3861dffe0c322b462acd35751710') in 0.041425 seconds
-  Import took 0.043127 seconds .
+  Time since last request: 345.286256 seconds.
+  path: Assets/Models
+  artifactKey: Guid(bc18477175819694280c8b80eacf9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(bc18477175819694280c8b80eacf9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a6d338b86a12ad321e07bf91ec4cbb') in 0.005555 seconds
+  Import took 0.007517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002331 seconds.
-  path: Assets/cat-baby.jpg
-  artifactKey: Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cat-baby.jpg using Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6d3861dffe0c322b462acd35751710') in 0.009851 seconds
-  Import took 0.011515 seconds .
+  Time since last request: 1.537255 seconds.
+  path: Assets/PolygonVikings
+  artifactKey: Guid(588d8b22d74468a4fb236709be68d754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings using Guid(588d8b22d74468a4fb236709be68d754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd941db953be7401a287b6ca4449fc7') in 0.005487 seconds
+  Import took 0.008041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.268548 seconds.
+  Time since last request: 0.000588 seconds.
+  path: Assets/PolygonVikings
+  artifactKey: Guid(588d8b22d74468a4fb236709be68d754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings using Guid(588d8b22d74468a4fb236709be68d754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd941db953be7401a287b6ca4449fc7') in 0.001616 seconds
+  Import took 0.003297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.826622 seconds.
+  path: Assets/ThirdParty
+  artifactKey: Guid(ada0e959a33d7844ca061c4a2fd7a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty using Guid(ada0e959a33d7844ca061c4a2fd7a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba4d965493e6b66dd792af75d9035b7') in 0.005780 seconds
+  Import took 0.007629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.620985 seconds.
   path: Assets/Sprites/cat-baby.jpg
   artifactKey: Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/cat-baby.jpg using Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb833cd89224e3d961c5d16399f9168') in 0.052843 seconds
-  Import took 0.054646 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001421 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1592.
-Total: 1.435600 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.226900 ms  DeleteObjects: 0.038900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 1.692000 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.396800 ms  DeleteObjects: 0.040500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1598.
-Total: 1.482900 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.240400 ms  DeleteObjects: 0.090000 ms)
+Start importing Assets/Sprites/cat-baby.jpg using Guid(1c2ea12903d48224c9badbaba6c50a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9975a6359ea4c4812c66a2f3c04109d') in 0.103768 seconds
+  Import took 0.105503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7737.432971 seconds.
-  path: Assets/Scripts/DelegateSample.cs
-  artifactKey: Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DelegateSample.cs using Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87567db0c27b2af854ee763c0300e91b') in 0.006914 seconds
-  Import took 0.008786 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001354 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 1.801800 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.070400 ms MarkObjects: 1.410400 ms  DeleteObjects: 0.050700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001509 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 1.430300 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.232000 ms  DeleteObjects: 0.039300 ms)
+  Time since last request: 3.539048 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Demo/Demo_Scene.unity
+  artifactKey: Guid(056a6e7b7a0bc404189182226565007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Demo/Demo_Scene.unity using Guid(056a6e7b7a0bc404189182226565007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0f657a08f8c0c8de1ee001d860efea') in 0.005830 seconds
+  Import took 0.008281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 962.110865 seconds.
-  path: Assets/Scripts/DelegateSample.cs
-  artifactKey: Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DelegateSample.cs using Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813cc646fa4e77652e9b3a7d75d1e3e') in 0.003196 seconds
-  Import took 0.004754 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001547 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 1.539100 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.284000 ms  DeleteObjects: 0.038400 ms)
+  Time since last request: 0.000421 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Demo/Demo_Scene.unity
+  artifactKey: Guid(056a6e7b7a0bc404189182226565007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Demo/Demo_Scene.unity using Guid(056a6e7b7a0bc404189182226565007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0f657a08f8c0c8de1ee001d860efea') in 0.001686 seconds
+  Import took 0.003336 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.075600 seconds.
-  path: Assets/Scripts/DelegateSample.cs
-  artifactKey: Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DelegateSample.cs using Guid(7f6a7070fcb1557429e0fc262267cc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5c6bcc479e7888fd756526b453d188') in 0.003258 seconds
-  Import took 0.004992 seconds .
+  Time since last request: 23.438546 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_01.prefab
+  artifactKey: Guid(9bd96d1e087fef64fb1874d6362d3133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_01.prefab using Guid(9bd96d1e087fef64fb1874d6362d3133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200e907b21f5dafa099d068a96b91e39') in 0.036707 seconds
+  Import took 0.038504 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.650848 seconds.
-  path: Assets/Scripts/ShowText.cs
-  artifactKey: Guid(95ed062160b88cf4db9cc88960f2af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShowText.cs using Guid(95ed062160b88cf4db9cc88960f2af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ba5ebe6ee28c11546e5f9ba1d5d2ce') in 0.006861 seconds
-  Import took 0.008647 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.666 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.467600 ms (FindLiveObjects: 0.121200 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.274900 ms  DeleteObjects: 0.038900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.700000 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.393700 ms  DeleteObjects: 0.040100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001464 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.733100 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.437400 ms  DeleteObjects: 0.080000 ms)
+  Time since last request: 0.102456 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_01.prefab
+  artifactKey: Guid(9bd96d1e087fef64fb1874d6362d3133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_01.prefab using Guid(9bd96d1e087fef64fb1874d6362d3133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200e907b21f5dafa099d068a96b91e39') in 0.006408 seconds
+  Import took 0.008236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4367.045470 seconds.
-  path: Assets/Scripts/ShowText.cs
-  artifactKey: Guid(95ed062160b88cf4db9cc88960f2af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShowText.cs using Guid(95ed062160b88cf4db9cc88960f2af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e593957ef1940c12f9e4338573e461') in 0.003154 seconds
-  Import took 0.004719 seconds .
+  Time since last request: 2.013011 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_02.prefab
+  artifactKey: Guid(7641de12931c51547b51c64f5c9934c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_02.prefab using Guid(7641de12931c51547b51c64f5c9934c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e951c5d24a5d20db2afc2f0ba6aaeef') in 0.010212 seconds
+  Import took 0.012258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.659822 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_03.prefab
+  artifactKey: Guid(1e420ee63dd92ba4b96b22939475c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_03.prefab using Guid(1e420ee63dd92ba4b96b22939475c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf80696ab53e208c6193aeda5c042adf') in 0.013324 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.984510 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_04.prefab
+  artifactKey: Guid(4b071b28a6248a54faf510209fcfad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_04.prefab using Guid(4b071b28a6248a54faf510209fcfad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db977f9e1aa102bda598b6147be7145') in 0.011001 seconds
+  Import took 0.012824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_04.prefab
+  artifactKey: Guid(4b071b28a6248a54faf510209fcfad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_04.prefab using Guid(4b071b28a6248a54faf510209fcfad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db977f9e1aa102bda598b6147be7145') in 0.006171 seconds
+  Import took 0.008189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.138603 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_01.prefab
+  artifactKey: Guid(dc93406dd31af994d83615c6fe53d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_01.prefab using Guid(dc93406dd31af994d83615c6fe53d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81981f611f7bb7291dd201d4a614c4fe') in 0.009657 seconds
+  Import took 0.011471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_01.prefab
+  artifactKey: Guid(dc93406dd31af994d83615c6fe53d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_01.prefab using Guid(dc93406dd31af994d83615c6fe53d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81981f611f7bb7291dd201d4a614c4fe') in 0.005889 seconds
+  Import took 0.007613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.826724 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_01.prefab
+  artifactKey: Guid(6d886c7ce41d4524b8ae70234f5bc839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_01.prefab using Guid(6d886c7ce41d4524b8ae70234f5bc839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f7992ef1c20fda15e969dcb92a66a8') in 0.009299 seconds
+  Import took 0.011256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549720 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_02.prefab
+  artifactKey: Guid(73c4e7382be4b9e43bfeeff2fd65a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_02.prefab using Guid(73c4e7382be4b9e43bfeeff2fd65a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4404b41a9d9ef03c5d2ef718cf596d') in 0.009064 seconds
+  Import took 0.011111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001904 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_02.prefab
+  artifactKey: Guid(73c4e7382be4b9e43bfeeff2fd65a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Dirt_Mound_02.prefab using Guid(73c4e7382be4b9e43bfeeff2fd65a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4404b41a9d9ef03c5d2ef718cf596d') in 0.006241 seconds
+  Import took 0.007968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225621 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_DirtMound_03.prefab
+  artifactKey: Guid(033e6e99a7b90b0429eb90552fce833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_DirtMound_03.prefab using Guid(033e6e99a7b90b0429eb90552fce833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668e204770a688f86f3be6031699d19d') in 0.009945 seconds
+  Import took 0.011830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317893 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Flax_02.prefab
+  artifactKey: Guid(390b8227ef8032d43a236854caca0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Flax_02.prefab using Guid(390b8227ef8032d43a236854caca0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42f5b3b3f3e6b5b63027022509b3486') in 0.008912 seconds
+  Import took 0.010735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.538898 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Flax_01.prefab
+  artifactKey: Guid(1e3ecfd7fba5c064e81241f1f5d118bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Flax_01.prefab using Guid(1e3ecfd7fba5c064e81241f1f5d118bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94bc41c75e4717c379048d7c709be89') in 0.008892 seconds
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.670578 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Grass_Large_01.prefab
+  artifactKey: Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Grass_Large_01.prefab using Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a6dd3c49abea2b6269f0c322bbc31') in 0.008696 seconds
+  Import took 0.010510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.238285 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Iceberg_02.prefab
+  artifactKey: Guid(a2fd6eb2561e0844abe038f988bb84da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Iceberg_02.prefab using Guid(a2fd6eb2561e0844abe038f988bb84da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f088eebcde5b3dfe6aa1d04c6df5d0') in 0.009765 seconds
+  Import took 0.011713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500056 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Iceberg_01.prefab
+  artifactKey: Guid(b60d2db556c6aa24b84c18b24899de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Iceberg_01.prefab using Guid(b60d2db556c6aa24b84c18b24899de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcdf2ddbea0c3f0ccfd59bf89e8d524') in 0.009334 seconds
+  Import took 0.011215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.726787 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_01.prefab
+  artifactKey: Guid(5e5174ec59a313d48a31da362a7bf4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_01.prefab using Guid(5e5174ec59a313d48a31da362a7bf4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28248e04fbb7f16c8621890f83fca2be') in 0.009409 seconds
+  Import took 0.011313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026138 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_02.prefab
+  artifactKey: Guid(e46432fccc74d7f4d990c33943569641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_02.prefab using Guid(e46432fccc74d7f4d990c33943569641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca881a5c9c3e54bcf32fbabc2dfd064') in 0.009536 seconds
+  Import took 0.011377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027314 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_03.prefab
+  artifactKey: Guid(838440234b5e6ac40912b70ff1d38863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_03.prefab using Guid(838440234b5e6ac40912b70ff1d38863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9368c3e26bd4d89be3ba0beb986f04') in 0.008567 seconds
+  Import took 0.010457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024835 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_04.prefab
+  artifactKey: Guid(0704de4aad0f42247b81d5bef55a63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_04.prefab using Guid(0704de4aad0f42247b81d5bef55a63c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f171bdf117ac6b042dd9a2e76701057') in 0.008828 seconds
+  Import took 0.010689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025009 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_05.prefab
+  artifactKey: Guid(6f70602d588bb43499d85285982d9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_05.prefab using Guid(6f70602d588bb43499d85285982d9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fec12b1a0fc63916f9e3d4cfd2c706f') in 0.008677 seconds
+  Import took 0.010471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024630 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_06.prefab
+  artifactKey: Guid(f9eb82beae0445b4f9473ee865ec8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_IceChunk_06.prefab using Guid(f9eb82beae0445b4f9473ee865ec8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb338e0f5719beea44f3958d7a89225') in 0.009562 seconds
+  Import took 0.011508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034304 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_01.prefab
+  artifactKey: Guid(27a87b0e789e67d4e9a5a3d058c5d97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_01.prefab using Guid(27a87b0e789e67d4e9a5a3d058c5d97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef028bdc733bdfe94aa1b76b3be707e') in 0.010023 seconds
+  Import took 0.011818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045966 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_02.prefab
+  artifactKey: Guid(d73214eddd849d24a84e9dcb68195d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_02.prefab using Guid(d73214eddd849d24a84e9dcb68195d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354feb9dec9930dbbc382c6fbbdf3ec2') in 0.009205 seconds
+  Import took 0.011030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309010 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_03.prefab
+  artifactKey: Guid(5fe796031adccd745a945915d6ec60ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Mountains_03.prefab using Guid(5fe796031adccd745a945915d6ec60ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdca79baa4a4b44b88d5f71ea73a6c20') in 0.009987 seconds
+  Import took 0.011953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188592 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Rocks_Side_01.prefab
+  artifactKey: Guid(38c59bf579d37444c9890cf8ea56e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Rocks_Side_01.prefab using Guid(38c59bf579d37444c9890cf8ea56e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4be65ffa11161c971a92f84c0125ab') in 0.009469 seconds
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152067 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Wood_01.prefab
+  artifactKey: Guid(9697177fedbac3649907adbcfa9bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Wood_01.prefab using Guid(9697177fedbac3649907adbcfa9bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c6773926130f86502ffe98f96f511b') in 0.010251 seconds
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Wood_01.prefab
+  artifactKey: Guid(9697177fedbac3649907adbcfa9bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Path_Wood_01.prefab using Guid(9697177fedbac3649907adbcfa9bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c6773926130f86502ffe98f96f511b') in 0.006118 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.274878 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments
+  artifactKey: Guid(2a2e2c02382a19b42accff1d2c8e06de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments using Guid(2a2e2c02382a19b42accff1d2c8e06de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46c339832fde778d8a940920da7e06e') in 0.005055 seconds
+  Import took 0.006775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.832460 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props
+  artifactKey: Guid(9523ee8fcb5c6644a95baeff2198e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props using Guid(9523ee8fcb5c6644a95baeff2198e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c8726eb0e5d27cebef494de7201954') in 0.006006 seconds
+  Import took 0.007813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.340144 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Alter_01.prefab
+  artifactKey: Guid(1880e3cc91b3f9349803cc9b0c7312dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Alter_01.prefab using Guid(1880e3cc91b3f9349803cc9b0c7312dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473da0289ef1f9a60f2367f5c36111b1') in 0.009463 seconds
+  Import took 0.011427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.388390 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Anvil_01.prefab
+  artifactKey: Guid(e575309b739b1ca42a3ac74b4b9e44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Anvil_01.prefab using Guid(e575309b739b1ca42a3ac74b4b9e44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb068a7aeeabeeddef0523eb32d054d') in 0.010070 seconds
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.732388 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Anvil_Stump_01.prefab
+  artifactKey: Guid(8fe55233c35d2c24d8beef711a445fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Anvil_Stump_01.prefab using Guid(8fe55233c35d2c24d8beef711a445fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d7e03b672e8f8c2b7aae1cc11756a2') in 0.009449 seconds
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149756 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Archway_01.prefab
+  artifactKey: Guid(3b21f46cc19a5ce42b92b84614833404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Archway_01.prefab using Guid(3b21f46cc19a5ce42b92b84614833404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8167ed76366b42fc32bed934ad8b8409') in 0.008968 seconds
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131995 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Barrel_Half_01.prefab
+  artifactKey: Guid(fd2f5e57f87482a49adb74869520a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Barrel_Half_01.prefab using Guid(fd2f5e57f87482a49adb74869520a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c17f765d34385bba0b8cc170a26835') in 0.009105 seconds
+  Import took 0.010963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141036 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Barrel_Half_02.prefab
+  artifactKey: Guid(e99aea338bfe1034d8e0230ae4c4f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Barrel_Half_02.prefab using Guid(e99aea338bfe1034d8e0230ae4c4f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431ba86bb9ecb73ef4fce25701215b80') in 0.008906 seconds
+  Import took 0.010721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132809 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Beer_Mug_01.prefab
+  artifactKey: Guid(6f7b44513a402c543a49ebe0a0d312cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Beer_Mug_01.prefab using Guid(6f7b44513a402c543a49ebe0a0d312cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd100edbe9573c268f2cc09145ed24b4') in 0.008760 seconds
+  Import took 0.010569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261699 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Beer_Mug_02.prefab
+  artifactKey: Guid(5d004088b704ad6418ad52b16d029285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Beer_Mug_02.prefab using Guid(5d004088b704ad6418ad52b16d029285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd693960ee1a638fe1d7c9308ed59b3c6') in 0.009433 seconds
+  Import took 0.011462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124164 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Bench_01.prefab
+  artifactKey: Guid(947707231863afa40a8e244c644bfaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Bench_01.prefab using Guid(947707231863afa40a8e244c644bfaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7958147daa390a7e3889488c73fccb0d') in 0.008824 seconds
+  Import took 0.010659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118524 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Broken_01.prefab
+  artifactKey: Guid(2126a8c5355ec274ab9cea492bbbd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Broken_01.prefab using Guid(2126a8c5355ec274ab9cea492bbbd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0913bd99652b7eaaed241875c4206e3') in 0.009572 seconds
+  Import took 0.011372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495466 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Broken_02.prefab
+  artifactKey: Guid(34f6bb9d0eb61f34a82385f91df85430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Broken_02.prefab using Guid(34f6bb9d0eb61f34a82385f91df85430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbe7a9e5e151978f266c64ed6b7e323') in 0.010164 seconds
+  Import took 0.012176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029735 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Build_01.prefab
+  artifactKey: Guid(6cd5c5bbac883d34f9b25a7f90599ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Boat_Build_01.prefab using Guid(6cd5c5bbac883d34f9b25a7f90599ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a213da369f0755d52e13510dc5be58fa') in 0.008922 seconds
+  Import took 0.010747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043338 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_BoatRamp_01.prefab
+  artifactKey: Guid(4b9a761d0e8b41b4a92a74fc921dfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_BoatRamp_01.prefab using Guid(4b9a761d0e8b41b4a92a74fc921dfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33209e11ce8d4865822703b0a44d7f08') in 0.008801 seconds
+  Import took 0.010621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026560 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Chest_01.prefab
+  artifactKey: Guid(bce0f4edb0a25284db2ba03dc7dfcf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Chest_01.prefab using Guid(bce0f4edb0a25284db2ba03dc7dfcf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a993d7432fd49ffb8761224e77ff7764') in 0.009994 seconds
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046371 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Clay_Pot_01.prefab
+  artifactKey: Guid(2774eb73abaea0a4fb58ee298ddaf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Clay_Pot_01.prefab using Guid(2774eb73abaea0a4fb58ee298ddaf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a26594c4ab34d3352f19612a9f2546') in 0.008979 seconds
+  Import took 0.010796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023669 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Clay_Pot_02.prefab
+  artifactKey: Guid(3218ee3983288ff49b54e48c5c0bc060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Clay_Pot_02.prefab using Guid(3218ee3983288ff49b54e48c5c0bc060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30de9d4f892864ccb7b17a613c5e935a') in 0.008743 seconds
+  Import took 0.010559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025069 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cow_Skull_01.prefab
+  artifactKey: Guid(c7acb2f79788a644099a5b0ca7b16d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cow_Skull_01.prefab using Guid(c7acb2f79788a644099a5b0ca7b16d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace1605bebf9d8cd6b19b6379b6410dc') in 0.008761 seconds
+  Import took 0.010565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026102 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Base_01.prefab
+  artifactKey: Guid(94a4cb92d3f47fe409ba9bcff8e41310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Base_01.prefab using Guid(94a4cb92d3f47fe409ba9bcff8e41310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f780e54db27e45ec8959522674d7d') in 0.009300 seconds
+  Import took 0.011133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025358 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Lid_01.prefab
+  artifactKey: Guid(4d5af74902acc0242a19f53fe20cd980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Lid_01.prefab using Guid(4d5af74902acc0242a19f53fe20cd980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0031ea29ec9dccdbf31f20e8a5c928') in 0.008575 seconds
+  Import took 0.010413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031983 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Open_01.prefab
+  artifactKey: Guid(3998ea411e152624dbe3b1c7297b54f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Crate_Open_01.prefab using Guid(3998ea411e152624dbe3b1c7297b54f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e18ecca8734e51af8ea2eb95e3b58') in 0.008875 seconds
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049222 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cross_01.prefab
+  artifactKey: Guid(d2da193a7cce2544aba52132bc3d4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cross_01.prefab using Guid(d2da193a7cce2544aba52132bc3d4b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90fb33f38bec8891dd1fcdf523adcf4') in 0.009312 seconds
+  Import took 0.011106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027897 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cross_02.prefab
+  artifactKey: Guid(9608153f208db8848bfb61ccd4ab2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Cross_02.prefab using Guid(9608153f208db8848bfb61ccd4ab2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d9ab88a827b39bcf28fbd3f58b368d') in 0.009471 seconds
+  Import took 0.011324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028881 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_01.prefab
+  artifactKey: Guid(46cfee41c23d20943bea07f42b693622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_01.prefab using Guid(46cfee41c23d20943bea07f42b693622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b457164681e3a71c7581bbb1b0b6d71') in 0.008952 seconds
+  Import took 0.010808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025465 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_02.prefab
+  artifactKey: Guid(a982d1a79ee76674c8183014f3ad89e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_02.prefab using Guid(a982d1a79ee76674c8183014f3ad89e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c43420b892073d63143e6a4e19aa8') in 0.008788 seconds
+  Import took 0.010625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027476 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_03.prefab
+  artifactKey: Guid(b42cb2995feb2b741bfcc61787863176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_03.prefab using Guid(b42cb2995feb2b741bfcc61787863176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ff683540b226b8bee5e81540dfa2c') in 0.009405 seconds
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.376885 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_Pole_01.prefab
+  artifactKey: Guid(227cf139aea701147807de534731b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_Pole_01.prefab using Guid(227cf139aea701147807de534731b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4627ab6f079876581612aae82f42c0c2') in 0.008877 seconds
+  Import took 0.010697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157431 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_Pole_02.prefab
+  artifactKey: Guid(8434adc8418fcd742bdf4882cdd4274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Dock_Pole_02.prefab using Guid(8434adc8418fcd742bdf4882cdd4274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2421c4e89c1c9be97e71b4bb497aa62') in 0.009331 seconds
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180983 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Platform_01.prefab
+  artifactKey: Guid(ecedabe829ae1864f9a52641b0e0e7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Platform_01.prefab using Guid(ecedabe829ae1864f9a52641b0e0e7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f279eb6a9977c8a780b80540b1f14f18') in 0.009608 seconds
+  Import took 0.011583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179911 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Stick_01.prefab
+  artifactKey: Guid(02f5d17e0c791d94aa778001d3bbb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Stick_01.prefab using Guid(02f5d17e0c791d94aa778001d3bbb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918bdad13af3319937d7d02fb59fb6b4') in 0.009535 seconds
+  Import took 0.011428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316742 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_01.prefab
+  artifactKey: Guid(0ae11fd94d7641b42a28d2b996c3d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_01.prefab using Guid(0ae11fd94d7641b42a28d2b996c3d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d13303fc0188d6be9cd5c6563969d') in 0.010120 seconds
+  Import took 0.012028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211870 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_02.prefab
+  artifactKey: Guid(37af1899201f02e498a0fe16a4415c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_02.prefab using Guid(37af1899201f02e498a0fe16a4415c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c45a96ed71e9e0113c9659428569f9') in 0.009489 seconds
+  Import took 0.011410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180541 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_03.prefab
+  artifactKey: Guid(400a7464cf390c04f87477fb55b72e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_03.prefab using Guid(400a7464cf390c04f87477fb55b72e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49706b290301bbc3cb815efcb86e843') in 0.010216 seconds
+  Import took 0.012169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147603 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Large_01.prefab
+  artifactKey: Guid(c4dfcc5f47794ea4c9d6ea7f64fcc8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Large_01.prefab using Guid(c4dfcc5f47794ea4c9d6ea7f64fcc8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115df2ca3612b71dcc003252a54ce978') in 0.009760 seconds
+  Import took 0.011744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140328 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Large_02.prefab
+  artifactKey: Guid(4efb67bc73b7a8d478f4b1c7eaf1f638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Large_02.prefab using Guid(4efb67bc73b7a8d478f4b1c7eaf1f638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4843452b6d1a6f33ad5b48014cf5a19c') in 0.009006 seconds
+  Import took 0.010868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148685 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_01.prefab
+  artifactKey: Guid(9c917faa966013b43bce572a668ccaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_01.prefab using Guid(9c917faa966013b43bce572a668ccaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230fd6b38c76309ed7364a3d9dfb967') in 0.009626 seconds
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340798 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_02.prefab
+  artifactKey: Guid(224cf3805d6345840855db4063a9edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_02.prefab using Guid(224cf3805d6345840855db4063a9edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad4cb96d829fc24c96d3efdd07f1711') in 0.009454 seconds
+  Import took 0.011476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188479 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_03.prefab
+  artifactKey: Guid(82e3f0a80734af347a16920fa78488bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_03.prefab using Guid(82e3f0a80734af347a16920fa78488bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53da52934705141bf97f0b7f7b21a38') in 0.008573 seconds
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165169 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_04.prefab
+  artifactKey: Guid(334138b35d0840040b8fed6181f1e3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fence_Wood_Pole_04.prefab using Guid(334138b35d0840040b8fed6181f1e3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6949ce535cecbd4aa662ce735bb12c32') in 0.009076 seconds
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172662 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_01.prefab
+  artifactKey: Guid(3d713cead4da889449aa4645be0171d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_01.prefab using Guid(3d713cead4da889449aa4645be0171d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0781ebe6d6ab45ff208a769fa89def9') in 0.009759 seconds
+  Import took 0.011641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133398 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_02.prefab
+  artifactKey: Guid(c163eac54e9a1ce4fb13074701040c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_02.prefab using Guid(c163eac54e9a1ce4fb13074701040c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411883c25ea66087abe4c16e48d4e5ae') in 0.008606 seconds
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164843 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_01.prefab
+  artifactKey: Guid(1ec5fbf84bad00d45b6112ad1859ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_01.prefab using Guid(1ec5fbf84bad00d45b6112ad1859ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0173e6619490e74b898f9d3c9ce9bc96') in 0.008858 seconds
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156729 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_02.prefab
+  artifactKey: Guid(0968d990dab01c74a860358417528921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_02.prefab using Guid(0968d990dab01c74a860358417528921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6f6adc072379b061659301bb338f8') in 0.009798 seconds
+  Import took 0.011687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196824 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_03.prefab
+  artifactKey: Guid(31c5ca636856fdd4f89835571bdd7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Dead_03.prefab using Guid(31c5ca636856fdd4f89835571bdd7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29961c0e7fcff1fce97206a6d93b7c1') in 0.009231 seconds
+  Import took 0.011231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148253 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Hanging_01.prefab
+  artifactKey: Guid(99f863ee46d665e4c8649c7103644b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Hanging_01.prefab using Guid(99f863ee46d665e4c8649c7103644b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bbcb1801c2bc6fe36e58b8462b09ae') in 0.008713 seconds
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157397 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Hanging_02.prefab
+  artifactKey: Guid(a69e671a237976e479b070b17bd89693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Hanging_02.prefab using Guid(a69e671a237976e479b070b17bd89693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe4ecbf42a7324df884ee8a88eafe01') in 0.009714 seconds
+  Import took 0.011621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493219 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Pile_01.prefab
+  artifactKey: Guid(cb71f616a6063ca46828a614a9a63bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Pile_01.prefab using Guid(cb71f616a6063ca46828a614a9a63bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7a428e491d12de4cca9b527fc6243') in 0.009511 seconds
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028059 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Rack_01.prefab
+  artifactKey: Guid(99c754fea2d204e4e8cb88737dcc5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Rack_01.prefab using Guid(99c754fea2d204e4e8cb88737dcc5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce81c0297d45eb5e49751387e42eba8') in 0.008893 seconds
+  Import took 0.010727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036044 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Rack_02.prefab
+  artifactKey: Guid(e6042c08b18fa5b428cac5899a697b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fish_Rack_02.prefab using Guid(e6042c08b18fa5b428cac5899a697b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c53f087f6d4266763c0b502d0c4b6') in 0.009002 seconds
+  Import took 0.010848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034581 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_01.prefab
+  artifactKey: Guid(555bb2533d134f54caacbd273915f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_01.prefab using Guid(555bb2533d134f54caacbd273915f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af122d32b9e637e3f50988694858ec') in 0.008924 seconds
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003304 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_01.prefab
+  artifactKey: Guid(555bb2533d134f54caacbd273915f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_01.prefab using Guid(555bb2533d134f54caacbd273915f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af122d32b9e637e3f50988694858ec') in 0.006746 seconds
+  Import took 0.008603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024519 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_02.prefab
+  artifactKey: Guid(027fd0ea4abd22b46aaaaec6ef07b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Flag_02.prefab using Guid(027fd0ea4abd22b46aaaaec6ef07b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1187aa6432f775a1f1745f6a065472ed') in 0.008648 seconds
+  Import took 0.010511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026748 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_01.prefab
+  artifactKey: Guid(bfe4be0aaa478f840adab80970fe26a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_01.prefab using Guid(bfe4be0aaa478f840adab80970fe26a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae885fe5a76b88363ce12de41d06b64b') in 0.008873 seconds
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024992 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_02.prefab
+  artifactKey: Guid(1b3aa7594a79c9944927f447b0b59c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_02.prefab using Guid(1b3aa7594a79c9944927f447b0b59c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d9c6621f195a3ccefa04c7c43963b6') in 0.009000 seconds
+  Import took 0.010833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025212 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_03.prefab
+  artifactKey: Guid(acd3fb61f8f2546418ab7e5bf16e2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Fur_Roll_03.prefab using Guid(acd3fb61f8f2546418ab7e5bf16e2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83976845a9df220381de1d2c8e8aa16') in 0.009007 seconds
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024684 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Goblet_01.prefab
+  artifactKey: Guid(04dca8df65cfdbf4aa3e90ce6f224377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Goblet_01.prefab using Guid(04dca8df65cfdbf4aa3e90ce6f224377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681c94a9eb0abe0286a89cb3359dea03') in 0.008611 seconds
+  Import took 0.010450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025424 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_GoldBar_01.prefab
+  artifactKey: Guid(07f3ba5af59bebf478b31c97a5d04cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_GoldBar_01.prefab using Guid(07f3ba5af59bebf478b31c97a5d04cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e9ef895521ab91c181014f7eab4c73') in 0.008766 seconds
+  Import took 0.010618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028047 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Ladder_02.prefab
+  artifactKey: Guid(a2fbd8b281f714a4fa9876991e94fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Ladder_02.prefab using Guid(a2fbd8b281f714a4fa9876991e94fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4948ea6b1de1a5392e8e60088ef312') in 0.008642 seconds
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036343 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Log_01.prefab
+  artifactKey: Guid(c4e397e52ea477948807aea5803b37f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Log_01.prefab using Guid(c4e397e52ea477948807aea5803b37f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e4f339e8c963f6b16658ea35dc935d') in 0.008953 seconds
+  Import took 0.010830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025144 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Logs_01.prefab
+  artifactKey: Guid(bcecb47ea5c6ff945a4477cf0949925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Logs_01.prefab using Guid(bcecb47ea5c6ff945a4477cf0949925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ccc9c6f0e8d14b2d16f67881946c37') in 0.009085 seconds
+  Import took 0.010951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025011 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Net_01.prefab
+  artifactKey: Guid(3529cecbe882fde4faf7434bb789c031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Net_01.prefab using Guid(3529cecbe882fde4faf7434bb789c031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa55ab91c57fd7403e5921fb8841590') in 0.009012 seconds
+  Import took 0.010901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025987 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Net_02.prefab
+  artifactKey: Guid(dfac55643c8476041b0f2aae67636eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Net_02.prefab using Guid(dfac55643c8476041b0f2aae67636eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6942cb3f2c6e58c21ec5f72469c14a82') in 0.009328 seconds
+  Import took 0.011210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028550 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Oar_01.prefab
+  artifactKey: Guid(32d3762abe220eb44bf6eb7e7fdb4d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Oar_01.prefab using Guid(32d3762abe220eb44bf6eb7e7fdb4d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79cef56ddef19a446720221dad11eb9') in 0.008420 seconds
+  Import took 0.010282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026579 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_01.prefab
+  artifactKey: Guid(18b0d13443b47c645a8c653d53dacafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_01.prefab using Guid(18b0d13443b47c645a8c653d53dacafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1ddc2610e2fe324248a82c33fe87f0') in 0.008643 seconds
+  Import took 0.010480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027513 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_02.prefab
+  artifactKey: Guid(f5bb433291651854b9adfc74fc2f109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_02.prefab using Guid(f5bb433291651854b9adfc74fc2f109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64b26393f041431fed7b33c72bc6e0d') in 0.009260 seconds
+  Import took 0.011121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026145 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_03.prefab
+  artifactKey: Guid(7c60c40bd1ffef747a982f4f4144fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Pole_03.prefab using Guid(7c60c40bd1ffef747a982f4f4144fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a652c2befe14634de2e10b773223a98') in 0.008779 seconds
+  Import took 0.010620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137164 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Rack_01.prefab
+  artifactKey: Guid(708a5cd512122424fbdd966269c29b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Props/SM_Prop_Rack_01.prefab using Guid(708a5cd512122424fbdd966269c29b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895e12475c8a8d3c06095fe790662829') in 0.009917 seconds
+  Import took 0.011755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.948082 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_02.prefab
+  artifactKey: Guid(6e89e149f527fd949addb672a8fbe32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Environments/SM_Env_Beach_Long_02.prefab using Guid(6e89e149f527fd949addb672a8fbe32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef6a8a56c96bd50daa26e51fd980ed') in 0.008700 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 561.665134 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_Black.prefab
+  artifactKey: Guid(5e2584a852ef63142b40e217afbf01bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_Black.prefab using Guid(5e2584a852ef63142b40e217afbf01bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2245d8006f4a99f4a3d91e1082105928') in 0.102972 seconds
+  Import took 0.105293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.107239 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_Brown.prefab
+  artifactKey: Guid(12ca67ad4d842c44398557f35a3cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_Brown.prefab using Guid(12ca67ad4d842c44398557f35a3cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd622a223f2370e399907b5b5bc0b2407') in 0.020055 seconds
+  Import took 0.022249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.112344 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_White.prefab
+  artifactKey: Guid(83905b55894130240b8d1a2922bf2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Chief_01_White.prefab using Guid(83905b55894130240b8d1a2922bf2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a52e6af57a088bff7d17992a07a6423') in 0.017332 seconds
+  Import took 0.019716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252612 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab
+  artifactKey: Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab using Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56e80ccd2d29d7c3bf0252013659a81') in 0.016354 seconds
+  Import took 0.018776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab
+  artifactKey: Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab using Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56e80ccd2d29d7c3bf0252013659a81') in 0.012318 seconds
+  Import took 0.014497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141278 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab
+  artifactKey: Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab using Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a403e99c5cdaa9c0e7dd46f5f4ea2b4') in 0.017189 seconds
+  Import took 0.019391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab
+  artifactKey: Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab using Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a403e99c5cdaa9c0e7dd46f5f4ea2b4') in 0.014354 seconds
+  Import took 0.016486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118783 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_White.prefab
+  artifactKey: Guid(4077c14a264a5f14b8d66749500af8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_01_White.prefab using Guid(4077c14a264a5f14b8d66749500af8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334c31647b433bfe03c3530848f89d2c') in 0.017637 seconds
+  Import took 0.020016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.408605 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Black.prefab
+  artifactKey: Guid(60a516d7b8bfd714b917bd2817fad388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Black.prefab using Guid(60a516d7b8bfd714b917bd2817fad388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042200cd99fe804167015edca78b8b57') in 0.017066 seconds
+  Import took 0.019308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532732 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab
+  artifactKey: Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab using Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ee34a53ffde331e21ad27b991a0c19') in 0.017277 seconds
+  Import took 0.019865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001963 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab
+  artifactKey: Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab using Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ee34a53ffde331e21ad27b991a0c19') in 0.013840 seconds
+  Import took 0.015912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.538518 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_White.prefab
+  artifactKey: Guid(f1935b8868aef41499f30ff190ab7e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_White.prefab using Guid(f1935b8868aef41499f30ff190ab7e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158ce49d284e9a35fc93a71419b4472a') in 0.030305 seconds
+  Import took 0.032567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.799013 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab
+  artifactKey: Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab using Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247c6b596823f468b600519e6bb1ae2') in 0.016668 seconds
+  Import took 0.018914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.844909 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_Black.prefab
+  artifactKey: Guid(2729a1c5ff6386c49850ac51fba60386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_Black.prefab using Guid(2729a1c5ff6386c49850ac51fba60386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd28313898985f00093051561e75c07') in 0.017292 seconds
+  Import took 0.019787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.780560 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_Brown.prefab
+  artifactKey: Guid(711e9dfdc8410b046a712ab7cf76a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Shieldmadien_Brown.prefab using Guid(711e9dfdc8410b046a712ab7cf76a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aa4172a411712a3a42e05ed779c6d6') in 0.016499 seconds
+  Import took 0.018754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.922359 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters
+  artifactKey: Guid(fc361c22505cfa6408dac29b2c3e013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters using Guid(fc361c22505cfa6408dac29b2c3e013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205279d9151a8f04ac7e6e5120c3d97b') in 0.005532 seconds
+  Import took 0.007395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440256 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Buildings
+  artifactKey: Guid(9dc656ac127a23c49803bacb0ef6382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Buildings using Guid(9dc656ac127a23c49803bacb0ef6382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aedb539df8627c1c790c9d3dca9fef3') in 0.005525 seconds
+  Import took 0.007540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421298 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Models/Characters.fbx
+  artifactKey: Guid(a177b0e6ff26a894180468c168e802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Models/Characters.fbx using Guid(a177b0e6ff26a894180468c168e802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1ce0d09a0b992555e071ab98212ff') in 0.104567 seconds
+  Import took 0.106706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.375740 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Models/Collisions
+  artifactKey: Guid(46a99454a82758b4f864ebf9a24a3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Models/Collisions using Guid(46a99454a82758b4f864ebf9a24a3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4c98f4e88f0d7a1c3f2e54f2ffb13') in 0.005842 seconds
+  Import took 0.007807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.832229 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Models/ImportedModels
+  artifactKey: Guid(f631bf390d1f4fe49a494c1b617b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Models/ImportedModels using Guid(f631bf390d1f4fe49a494c1b617b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345909de663a97e476b1526fcbcee5cc') in 0.005262 seconds
+  Import took 0.007408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.908553 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(dcf9e5d9dfbd89a4983ae76e9b24c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(dcf9e5d9dfbd89a4983ae76e9b24c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d65bdbe13e3f6075e4e70db24f1f25') in 0.005249 seconds
+  Import took 0.007109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.584236 seconds.
+  path: Assets/Animators
+  artifactKey: Guid(5ea741bb927630145a17c0fb3642daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators using Guid(5ea741bb927630145a17c0fb3642daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539f69a6a2f84ba951172f75a20793d8') in 0.005112 seconds
+  Import took 0.006951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.019348 seconds.
+  path: Assets/Animators/AnimatorController_01.controller
+  artifactKey: Guid(9f023d9a6114804489f35d20d09af358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/AnimatorController_01.controller using Guid(9f023d9a6114804489f35d20d09af358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38897d9dd68438945804c74bd9732225') in 0.007847 seconds
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.330760 seconds.
+  path: Assets/Animations/Breathing Idle.fbx
+  artifactKey: Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Breathing Idle.fbx using Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633eb859037bc7cba3bd76d9d7b90d12') in 0.045412 seconds
+  Import took 0.047531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.770342 seconds.
+  path: Assets/Animations/Breathing Idle.fbx
+  artifactKey: Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Breathing Idle.fbx using Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a383e890f88efad03f176e572ac933') in 0.039794 seconds
+  Import took 0.041755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.726809 seconds.
+  path: Assets/Animations/Flair.fbx
+  artifactKey: Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Flair.fbx using Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff50997a214695276b8b9f023977921') in 0.043306 seconds
+  Import took 0.045358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.576588 seconds.
+  path: Assets/Animations/Shuffling.fbx
+  artifactKey: Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shuffling.fbx using Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf5ccdf48a1a35077b64a8fb26cfc6') in 0.042621 seconds
+  Import took 0.044576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.847591 seconds.
+  path: Assets/Animations/Breathing Idle.fbx
+  artifactKey: Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Breathing Idle.fbx using Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d2ac77bfc35e266e7c4ff9e130e61a') in 0.042072 seconds
+  Import took 0.044130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.032949 seconds.
+  path: Assets/Animations/Flair.fbx
+  artifactKey: Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Flair.fbx using Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3144eb25bb286cd454bc9621ce9c5fe2') in 0.041501 seconds
+  Import took 0.043594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495748 seconds.
+  path: Assets/Animations/Hip Hop Dancing.fbx
+  artifactKey: Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hip Hop Dancing.fbx using Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127afe3a25cc3a29a3cab92c4a83268d') in 0.045894 seconds
+  Import took 0.047871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.699144 seconds.
+  path: Assets/Animations/Hip Hop Dancing.fbx
+  artifactKey: Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hip Hop Dancing.fbx using Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c2ed1b05ce228e2acae4995218db79') in 0.040890 seconds
+  Import took 0.042830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.808703 seconds.
+  path: Assets/Animations/Twist Dance.fbx
+  artifactKey: Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Twist Dance.fbx using Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f1028424afb9bd9baaab55e13a0a7c') in 0.045878 seconds
+  Import took 0.048190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.755142 seconds.
+  path: Assets/Animations/Shuffling.fbx
+  artifactKey: Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shuffling.fbx using Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01b516cfb46ad117c3278b9b7b294f1') in 0.041302 seconds
+  Import took 0.043322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.230968 seconds.
+  path: Assets/Animations/Twist Dance.fbx
+  artifactKey: Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Twist Dance.fbx using Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80c2fda00e7faa5b11a953efb4821f0') in 0.041556 seconds
+  Import took 0.043694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.941813 seconds.
+  path: Assets/Animations/Shuffling.fbx
+  artifactKey: Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shuffling.fbx using Guid(b430eed56e7c04d4ab1cbaba5b0c7ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c2c0321dcbfc91699b11543f358678') in 0.040354 seconds
+  Import took 0.042393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410982 seconds.
+  path: Assets/Animations/Breathing Idle.fbx
+  artifactKey: Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Breathing Idle.fbx using Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91ac6b25a5b016ed3d0b014048b847d') in 0.041373 seconds
+  Import took 0.043340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.951904 seconds.
+  path: Assets/Animations/Flair.fbx
+  artifactKey: Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Flair.fbx using Guid(14e4c0d7ed9303c41a357e594d03b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d647e807606db66b598d177f28ba91') in 0.038737 seconds
+  Import took 0.040710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.092795 seconds.
+  path: Assets/Animations/Hip Hop Dancing.fbx
+  artifactKey: Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hip Hop Dancing.fbx using Guid(6da9491ae50f86b47a3f03eb64992d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746032baecb645f4da92d4cd953a340c') in 0.038578 seconds
+  Import took 0.040543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.968642 seconds.
+  path: Assets/Animations/Breathing Idle.fbx
+  artifactKey: Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Breathing Idle.fbx using Guid(8bf4ec75ec00c1a4aa9251a027b95f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f4c7997430bcc8e752790032c0317b') in 0.040645 seconds
+  Import took 0.042720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.489269 seconds.
+  path: Assets/Animations/Twist Dance.fbx
+  artifactKey: Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Twist Dance.fbx using Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dc3815752717946be028b9d12e0ed0') in 0.042751 seconds
+  Import took 0.044964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.659236 seconds.
+  path: Assets/Animations/Twist Dance.fbx
+  artifactKey: Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Twist Dance.fbx using Guid(42973cee454af8b4aa8ae057cbe9d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4edf211d020475be7eb9c730a8cead') in 0.044140 seconds
+  Import took 0.046147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.297035 seconds.
+  path: Assets/Animators/AnimatorController_01.controller
+  artifactKey: Guid(9f023d9a6114804489f35d20d09af358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/AnimatorController_01.controller using Guid(9f023d9a6114804489f35d20d09af358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a08b2a49f78a2a1e0ae38430d9c39f6') in 0.012216 seconds
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1997.836792 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab
+  artifactKey: Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab using Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204d4be17ce448f3f104cbc3e4abf0ee') in 0.027640 seconds
+  Import took 0.030462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.673342 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab
+  artifactKey: Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab using Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d11bcb7080abea36d02627b98dc81a3') in 0.018001 seconds
+  Import took 0.020357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001334 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab
+  artifactKey: Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab using Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d11bcb7080abea36d02627b98dc81a3') in 0.013615 seconds
+  Import took 0.015863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242608 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab
+  artifactKey: Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab using Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8707efa4975a1787b280ca29f4a6eb0b') in 0.016904 seconds
+  Import took 0.019801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab
+  artifactKey: Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab using Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8707efa4975a1787b280ca29f4a6eb0b') in 0.013428 seconds
+  Import took 0.015585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227913 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab
+  artifactKey: Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab using Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0ab0334eb673824a8b95c57fb2955') in 0.015693 seconds
+  Import took 0.018377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002129 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab
+  artifactKey: Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab using Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0ab0334eb673824a8b95c57fb2955') in 0.016073 seconds
+  Import took 0.018254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177184 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab
+  artifactKey: Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab using Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1d6724315afd44d9fbe3cad341882') in 0.018047 seconds
+  Import took 0.020522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001523 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab
+  artifactKey: Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab using Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1d6724315afd44d9fbe3cad341882') in 0.015270 seconds
+  Import took 0.018018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247435 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab
+  artifactKey: Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab using Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1eb3fc7f94689ef15f0b7cb7a935ae') in 0.017531 seconds
+  Import took 0.020035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001851 seconds.
+  path: Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab
+  artifactKey: Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab using Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1eb3fc7f94689ef15f0b7cb7a935ae') in 0.013395 seconds
+  Import took 0.015508 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
